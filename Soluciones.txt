@@ -1,0 +1,19 @@
+Solucion 1
+
+#!/bin/bash
+
+read -p "Introdueix el primer valor: " v1
+read -p "Introdueix el segon valor: "v2
+
+if [ $v1 -gt $v2 ]
+then
+  echo "El primer valor es mes gran."
+elif [ $v1 -lt $v2 ]
+then
+  echo "El segon valor es mes gran."
+else
+  echo "Els valors son iguals."
+fi
+
+--------------------------------------------------
+
