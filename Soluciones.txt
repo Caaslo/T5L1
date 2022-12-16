@@ -53,3 +53,15 @@ else
 fi
 
 --------------------------------------------------
+Solucion 4
+
+#!/bin/bash
+
+read -p "Introdueix un valor mas gran que 0: " v
+
+for ((i=0; i<=v; i++))
+do
+  echo $i
+done
+
+--------------------------------------------------
