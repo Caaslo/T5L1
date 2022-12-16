@@ -16,4 +16,17 @@ else
 fi
 
 --------------------------------------------------
+Solucion 2
 
+#!/bin/bash
+
+read -p "Introdueix un valor major de 0: " v
+
+if [ $((v%2)) -eq 0 ]
+then
+  echo "El valor es parell."
+else
+  echo "El valor es senar."
+fi
+
+---------------------------------------------------
