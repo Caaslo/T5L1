@@ -30,3 +30,26 @@ else
 fi
 
 ---------------------------------------------------
+Solucion 3
+
+#!/bin/bash
+
+read -p "Intro dueiz la teva nota: "nota
+
+if [ $nota -lt 5 ]
+then
+  echo "Susp  s"
+elif [ $nota -lt 6 ]
+then
+  echo "Aprovat"
+elif [ $nota -lt 7 ]
+then
+  echo "B  "
+elif [ $nota -lt 9 ]
+then
+  echo "Notable"
+else
+  echo "Excelent"
+fi
+
+--------------------------------------------------
